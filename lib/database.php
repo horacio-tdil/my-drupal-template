@@ -1,9 +1,9 @@
 <?php
 class Database{
     private static $database_name ='users';
-    private static $database_host = 'localhost';
-    private static $database_user = 'root';
-    private static $database_user_password = 'root';
+    private static $database_host = 'db';
+    private static $database_user = 'db';
+    private static $database_user_password = 'db';
 
     private static $connection_status = null;
 
